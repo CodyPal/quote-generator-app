@@ -20,7 +20,7 @@ function removeLoadingSpinner(){
 // Get quote from API
 async function getQuote(){
     showLoadingSpinner();
-    const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+    const proxyUrl = 'https://nameless-gorge-17603.herokuapp.com/'
     const apiURL = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
     try{
         const response = await fetch(proxyUrl + apiURL);
